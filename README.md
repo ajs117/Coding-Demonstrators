@@ -6,3 +6,7 @@
 - PIano (C#): Plays a piano song based on the digits of pi.
 
 - Monte Pilo (C++): Calculates an approximation of pi using a Monte Carlo simulation.
+
+- ClockHands (C#): Calculates the angle between the hands on a clock at a specified time.
+
+- METAR decoder (WIP) (C#): Decodes METAR weather data (with in-built airport database)
