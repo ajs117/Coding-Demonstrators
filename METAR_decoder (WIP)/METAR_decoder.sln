@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "METAR_decoder", "METAR_decoder\METAR_decoder.csproj", "{DFF8922F-7210-4063-9E87-EEA3F444865D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFF8922F-7210-4063-9E87-EEA3F444865D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF8922F-7210-4063-9E87-EEA3F444865D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF8922F-7210-4063-9E87-EEA3F444865D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF8922F-7210-4063-9E87-EEA3F444865D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB19C6A4-02D3-42B7-8F0B-4AC52BC8B9BE}
+	EndGlobalSection
+EndGlobal
