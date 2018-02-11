@@ -10,3 +10,5 @@
 - ClockHands (C#): Calculates the angle between the hands on a clock at a specified time.
 
 - METAR decoder (WIP) (C#): Decodes METAR weather data (with in-built airport database)
+
+- Vending Machine (C#): Simulates a vending machine (and storing of coins but not items)
