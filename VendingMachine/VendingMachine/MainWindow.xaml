@@ -1,0 +1,68 @@
+﻿<Window x:Class="VendingMachine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VendingMachine"
+        mc:Ignorable="d"
+        Title="Vending Machine" Height="600" Width="600" Cursor="Hand" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" MinWidth="2" Background="Gray">
+    <Grid>
+        <Button Height="100" HorizontalAlignment="Left" Margin="25,25,0,0" Name="Item1" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item1_Click">
+            <TextBlock TextAlignment="Center" Name="Item1Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="150,25,0,0" Name="Item2" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item2_Click">
+            <TextBlock TextAlignment="Center" Name="Item2Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="275,25,0,0" Name="Item3" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item3_Click">
+            <TextBlock TextAlignment="Center" Name="Item3Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="25,150,0,0" Name="Item4" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item4_Click">
+            <TextBlock TextAlignment="Center" Name="Item4Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="150,150,0,0" Name="Item5" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item5_Click">
+            <TextBlock TextAlignment="Center" Name="Item5Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="275,150,0,0" Name="Item6" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item6_Click">
+            <TextBlock TextAlignment="Center" Name="Item6Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="25,275,0,0" Name="Item7" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item7_Click">
+            <TextBlock TextAlignment="Center" Name="Item7Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="150,275,0,0" Name="Item8" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item8_Click">
+            <TextBlock TextAlignment="Center" Name="Item8Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <Button Height="100" HorizontalAlignment="Left" Margin="275,275,0,0" Name="Item9" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Stretch" Click="Item9_Click">
+            <TextBlock TextAlignment="Center" Name="Item9Text" TextWrapping="WrapWithOverflow" />
+        </Button>
+        <TextBox HorizontalAlignment="Left" Background="Black" Foreground="Red" Height="50" Margin="435,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" TextAlignment="Right"  Name="Balance" FontFamily="Consolas" FontSize="22" IsReadOnly="True" VerticalContentAlignment="Center" />
+        <Button Height="30" HorizontalAlignment="Left" Margin="435,120,0,0" Name="Coin1" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin1_Click">
+            <TextBlock TextAlignment="Center" Name="Coin1Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="470,120,0,0" Name="Coin2" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin2_Click">
+            <TextBlock TextAlignment="Center" Name="Coin2Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="505,120,0,0" Name="Coin3" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin3_Click">
+            <TextBlock TextAlignment="Center" Name="Coin3Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="435,155,0,0" Name="Coin4" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin4_Click">
+            <TextBlock TextAlignment="Center" Name="Coin4Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="470,155,0,0" Name="Coin5" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin5_Click">
+            <TextBlock TextAlignment="Center" Name="Coin5Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="505,155,0,0" Name="Coin6" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin6_Click">
+            <TextBlock TextAlignment="Center" Name="Coin6Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="435,190,0,0" Name="Coin7" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin7_Click">
+            <TextBlock TextAlignment="Center" Name="Coin7Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="470,190,0,0" Name="Coin8" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Coin8_Click">
+            <TextBlock TextAlignment="Center" Name="Coin8Text" />
+        </Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="505,190,0,0" Name="Clear" VerticalAlignment="Top" Width="30" HorizontalContentAlignment="Stretch" Click="Clear_Click">
+            <TextBlock TextAlignment="Center">CLR</TextBlock>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="125" Margin="420,400,0,0" TextWrapping="Wrap" Name="Change" VerticalAlignment="Top" Width="125" IsReadOnly="True" Background="#FF505050" Foreground="White" TextAlignment="Center" VerticalContentAlignment="Center" />
+        <TextBox HorizontalAlignment="Left" Height="125" Margin="25,400,0,0" TextWrapping="Wrap" Name="Chute" VerticalAlignment="Top" Width="325" Foreground="White" Background="#FF505050" IsReadOnly="True" TextAlignment="Center" VerticalContentAlignment="Center" />
+    </Grid>
+</Window>
